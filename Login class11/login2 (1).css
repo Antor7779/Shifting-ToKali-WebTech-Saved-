@@ -1,0 +1,22 @@
+
+.form-control i{
+	position:absolute;
+	top:35px;
+	right:10px;
+	visibility:hidden;
+}
+.form-control small{
+visibility:hidden;
+position:absolute;
+bottom:0px;
+color:red;
+left:0px;
+}
+.form button{
+	background-color:#00d600;
+	border-radius:4px;
+	border:2px solid #00d600;
+	color:#fff;
+	width:100%;
+	font-size:16px;
+}

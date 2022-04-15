@@ -1,0 +1,71 @@
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: darkred;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: mediumpurple;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+.divAlign {
+  background-color: lightgoldenrodyellow;
+  color: black;
+
+}
+.divAlign a {
+  float: left;
+  color: mediumblack;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.divAlign a:hover{
+  background-color: lightgoldenrodyellow;
+  color: indianred;
+}
+
+/*below is sidebars css code*/
+*{
+  list-style: none;
+  text-decoration: none;
+  margin: 0;
+  padding :0;
+  box-sizing :border-box;
+  font-family: 'Open Sans',sans-serif;
+
+}
+body{
+  background : palegoldenrod;
+}
+
+.wrapper .sidebar{
+          background: rgb(5,69,104);
+          position: fixed;
+          top: 0;
+          left: 0;
+          width :225px;
+          height: :100%;
+          padding :20px 0;
+          transition: all 0.5s ease;
+}
